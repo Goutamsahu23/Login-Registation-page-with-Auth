@@ -18,7 +18,7 @@ const Dashboard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/v1/dashboard', {
+      const response = await fetch('http://localhost:4040/api/v1/dashboard', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

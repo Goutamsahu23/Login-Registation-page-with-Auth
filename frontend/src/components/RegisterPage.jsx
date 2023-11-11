@@ -32,7 +32,7 @@ const RegisterPage = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:3000/api/v1/register', formData);
+            const response = await axios.post('http://localhost:4040/api/v1/register', formData);
 
            
             toast.success("User created successfully. Please log in.");
